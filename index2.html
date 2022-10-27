@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Rosemar Caballero's login form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+
+    <div class="login">
+
+        <h1 class="text-center"><img src="cpsu.jpg" alt="" class="rounded-circle" width="70" height="70">USER'S LOGIN PAGE</h1>
+        <hr>
+        <p class="text-center">Please login to start your session</p>
+        
+       <form action="/action_page.php">
+           <div class="mb-3 mt-3">
+             <label for="email" class="form-label" id="email_label">Email:</label>
+             <input type="email" class="form-control" id="email" placeholder="Enter Email Address" name="email">
+           </div>
+           <div class="mb-3">
+             <label for="pwd" class="form-label" id="password_label">Password:</label>
+             <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pswd">
+           </div>
+           <div class="inline">    
+             <div class="form-check mb-3">
+               <label class="form-check-label" id="checkbox-label">
+                 <input class="form-check-input" type="checkbox" name="remember" > Remember me
+               </label>
+             </div>
+             <button type="submit" class=" login-button">LOGIN</button>
+           </div>
+       </form>      
+
+    </div>
+
+</body>
+</html>

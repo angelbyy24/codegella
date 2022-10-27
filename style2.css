@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(images/newimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.login {
+    width: 550px;
+    height: min-content;
+    padding: 15px 15px;
+    border-radius: 9px;
+    background: url(images/newimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.login img{
+    float:left;
+    
+}
+
+.login h1 {
+    font-size:37px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    color:white;
+    font-family:cooper black;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login label,p{
+    color:white;
+}
+
+#email_label,#password_label{
+    font-family: algerian;
+    
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+    border:none;
+}
+
+.login form input[type="submit"] {
+    font-size: 5px;
+    margin-top: 15px;
+}
+
+
+.form-check-label,p{
+ font-style: italic;
+ font-weight: bolder;
+}
+
+    
+.inline{
+    position: relative;
+}
+
+#checkbox-label{
+    position: absolute;
+    color:rgb(243, 246, 253);
+    top:10px;
+}
+
+button{
+    position: absolute;
+    right:0;
+    top:10px;
+    width:15em;
+    padding-top:1px;
+    color:rgb(241, 243, 247);
+    border:2px solid rgb(230, 235, 243);
+    background-color:transparent;
+    font-family: cooper black;
+}
